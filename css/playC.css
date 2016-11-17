@@ -1,0 +1,27 @@
+
+body{
+	width: 1024px;
+	height: 710px;
+	background: url(../img/textbg.jpg) no-repeat;
+}
+
+
+		body,div{margin: 0px;padding: 0px;}
+		body{position: relative;}
+		/*过渡*/
+		.smooth { -webkit-transition-duration:300ms; }
+		div{position: absolute; width: 100px;height: 100px;border: 1px solid black;line-height: 100px;text-align: center;font-size: 20px;color: white;	box-sizing: border-box;}
+		#Focus{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 3px #abe430 solid;
+	/*display: none;*/
+}
+		#menuFocus{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 3px #abe430 solid;
+	display: none;
+}
